@@ -128,10 +128,9 @@ def obtener_canciones_de_carpeta(ruta):
         print(f"❌ La carpeta '{ruta}' no existe")
         return []
     
-    # Buscar archivos mp3 y m4a
+    # Buscar archivos mp3
     archivos = glob.glob(os.path.join(ruta, "*.mp3"))
     archivos += glob.glob(os.path.join(ruta, "*.MP3"))
-    archivos += glob.glob(os.path.join(ruta, "*.m4a"))
     
     if not archivos:
         print(f"⚠️ No se encontraron archivos MP3 en '{ruta}'")
