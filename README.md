@@ -65,7 +65,7 @@ pip install pygame termcolor pillow
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/PyMusicPlayer.git
+git clone https://github.com/amateo142857/PyMusicPlayer.git
 cd PyMusicPlayer
 
 # Instalar dependencias
@@ -141,19 +141,6 @@ PyMusicPlayer/
 
 ---
 
-## 🎨 Capturas de Pantalla
-
-### Versión Tkinter (GUI)
-```
-[Reproductor con lista de canciones, controles y barra de progreso]
-```
-
-### Versión Terminal (CLI)
-```
-[Menú interactivo con estado de reproducción]
-```
-
----
 
 ## ⚙️ Configuración
 
